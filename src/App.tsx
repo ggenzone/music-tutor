@@ -12,15 +12,15 @@ import RhythmPatternsPage from "./pages/rhythm-patterns/page";
 function App() {
   return (
     <>
-      <Route path="/jazz-comping" component={JazzCompingPage} />
-      <Route path="/melody-player" component={MelodyPlayerPage} />
-      <Route path="/guitar-tuner" component={GuitarTunerPage} />
-      <Route path="/rhythm-patterns" component={RhythmPatternsPage} />
-      <Route path="/partiture-editor" component={PartitureEditorPage} />
-      <Route path="/metronome" component={MetronomePage} />
-      <Route path="/routine-editor" component={RoutineEditorPage} />
-      <Route path="/routine-player" component={RoutinePlayerPage} />  
-      <Route path="/" component={Home} />
+      <Route path="/music-tutor/jazz-comping" component={JazzCompingPage} />
+      <Route path="/music-tutor/melody-player" component={MelodyPlayerPage} />
+      <Route path="/music-tutor/guitar-tuner" component={GuitarTunerPage} />
+      <Route path="/music-tutor/rhythm-patterns" component={RhythmPatternsPage} />
+      <Route path="/music-tutor/partiture-editor" component={PartitureEditorPage} />
+      <Route path="/music-tutor/metronome" component={MetronomePage} />
+      <Route path="/music-tutor/routine-editor" component={RoutineEditorPage} />
+      <Route path="/music-tutor/routine-player" component={RoutinePlayerPage} />  
+      <Route path="/music-tutor/" component={Home} />
     </>
   );
 }
