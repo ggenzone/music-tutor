@@ -13,7 +13,7 @@ export default function Home() {
             <div className="p-6">
               <h2 className="text-xl font-semibold mb-2">Jazz Comping</h2>
               <p className="text-gray-600 mb-4">Practice jazz chord progressions with various voicings and rhythms.</p>
-              <Link href="/jazz-comping">
+              <Link href="/music-tutor/jazz-comping">
                 <Button className="w-full">Open</Button>
               </Link>
             </div>
@@ -24,7 +24,7 @@ export default function Home() {
             <div className="p-6">
               <h2 className="text-xl font-semibold mb-2">Melody Player</h2>
               <p className="text-gray-600 mb-4">Practice and analyze jazz melodies with interactive playback.</p>
-              <Link href="/melody-player">
+              <Link href="/music-tutor/melody-player">
                 <Button className="w-full">Open</Button>
               </Link>
             </div>
@@ -35,7 +35,7 @@ export default function Home() {
             <div className="p-6">
               <h2 className="text-xl font-semibold mb-2">Rhythm Patterns</h2>
               <p className="text-gray-600 mb-4">Practice common jazz rhythm patterns with visual notation.</p>
-              <Link href="/rhythm-patterns">
+              <Link href="/music-tutor/rhythm-patterns">
                 <Button className="w-full">Open</Button>
               </Link>
             </div>
@@ -46,7 +46,7 @@ export default function Home() {
             <div className="p-6">
               <h2 className="text-xl font-semibold mb-2">Partiture Editor</h2>
               <p className="text-gray-600 mb-4">Create and edit music scores with an interactive editor.</p>
-              <Link href="/partiture-editor">
+              <Link href="/music-tutor/partiture-editor">
                 <Button className="w-full">Open</Button>
               </Link>
             </div>
@@ -59,7 +59,7 @@ export default function Home() {
               <p className="text-gray-600 mb-4">
                 Practice with a customizable metronome featuring multiple time signatures.
               </p>
-              <Link href="/metronome">
+              <Link href="/music-tutor/metronome">
                 <Button className="w-full">Open</Button>
               </Link>
             </div>
@@ -70,7 +70,7 @@ export default function Home() {
             <div className="p-6">
               <h2 className="text-xl font-semibold mb-2">Guitar Tuner</h2>
               <p className="text-gray-600 mb-4">Tune your guitar with precision using real-time pitch detection.</p>
-              <Link href="/guitar-tuner">
+              <Link href="/music-tutor/guitar-tuner">
                 <Button className="w-full">Open</Button>
               </Link>
             </div>
@@ -81,7 +81,7 @@ export default function Home() {
             <div className="p-6">
               <h2 className="text-xl font-semibold mb-2">Routine Editor</h2>
               <p className="text-gray-600 mb-4">Create custom practice routines with multiple tools and time limits.</p>
-              <Link href="/routine-editor">
+              <Link href="/music-tutor/routine-editor">
                 <Button className="w-full">Open</Button>
               </Link>
             </div>
@@ -92,7 +92,7 @@ export default function Home() {
             <div className="p-6">
               <h2 className="text-xl font-semibold mb-2">Routine Player</h2>
               <p className="text-gray-600 mb-4">Play through your saved practice routines with timed steps.</p>
-              <Link href="/routine-player">
+              <Link href="/music-tutor/routine-player">
                 <Button className="w-full">Open</Button>
               </Link>
             </div>
